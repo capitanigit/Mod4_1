@@ -1,7 +1,5 @@
 #Mod 4 Zad 1
-
-def Palindrome(tekst):
+def palindrome(tekst):
     return tekst == tekst[::-1]
 tekst = "kajak"
-print(Palindrome(tekst))
-
+print(palindrome(tekst))
